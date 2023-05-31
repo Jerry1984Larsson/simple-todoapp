@@ -1,0 +1,24 @@
+{
+    "tasks": [
+        {
+            "id": "1",
+            "text": "Buy milk"
+        },
+        {
+            "id": "2",
+            "text": "Pick up Tom from airport"
+        },
+        {
+            "id": "3",
+            "text": "Visit party"
+        },
+        {
+            "id": "4",
+            "text": "Visit doctor"
+        },
+        {
+            "id": "5",
+            "text": "Buy meat"
+        }
+    ]
+}
