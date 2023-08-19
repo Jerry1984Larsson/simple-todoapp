@@ -12,14 +12,12 @@ export const TodoList: React.FC<TodoListProps> = ({ tasks }) => (
                 {/* head */}
                 <thead>
                     <tr>
-
                         <th>Task</th>
                         <th>Actions</th>
                     </tr>
                 </thead>
                 <tbody>
-                    {tasks.map((task) => <Task key={task.id} task={task}/>
-                    )}
+                    {Array.isArray(tasks) && tasks.map((t) => <Task key={t.id} task={t} />)}
                 </tbody>
             </table>
         </div>
